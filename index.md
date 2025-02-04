@@ -6,10 +6,10 @@ layout: default
 
 {% for post in site.posts %}
 
-{{ post.date | date: "%-d %B %Y" }} [{{ post.title }}]({{ post.url }}) - {{ post.excerpt | strip_html | truncatewords: 50 }}
+{{ post.date | date: "%-d %B %Y" }} - [{{ post.title }}]({{ post.url }})
 
 {% endfor %}
 
 # Random test
 
-Testing pages...test..@
+Testing pages...test..@zx

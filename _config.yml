@@ -3,3 +3,7 @@ title: Test Pages
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
+utterances:
+  repo: "project705/project705.github.io"
+  issue-term: "pathname"
+  label: "utteranc.es"
